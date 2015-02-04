@@ -1,14 +1,24 @@
-<script type="text/javascript">
+<!DOCTYPE html>
+<html>
+<body>
 
-document.write("<h1>Skip Multples Function</h1>");
+<h1>My Hackbright Coding Challenge</h1>
 
-for skipMultiples (var x=1; x <= 50; x++){
-    if( x % 7 ) {
+<script>
+
+var quote="Inspirational Quote"
+var linebreak="<br />"
+for( var x=1; x<= 50; x++)
+{
+    if (x % 7 == 0){
+        document.write(var quote);
+        document.write(linebreak);
+    else
         document.write(x);
-    } else {
-        if( x % 3 == 0 ) {
-            document.write("Inspirational quote");
-        }
-    }
-    document.write('<br>'); //line breaks to enhance output readability
-}
+        document.write(linebreak);
+} 
+
+</script>
+
+</body>
+</html> 
