@@ -6,19 +6,21 @@
 
 <script>
 
-var quote="Inspirational Quote"
 var linebreak="<br />"
 for( var x=1; x<= 50; x++)
 {
-    if (x % 7 == 0){
-        document.write(var quote);
+    if(x % 7)
+    {
+        document.write(x); 
         document.write(linebreak);
-    else
-        document.write(x);
+    } 
+    else 
+    {
+        document.write("The hand that rocks the cradle is the hand that rules the world."); 
         document.write(linebreak);
+    } 
 } 
-
 </script>
 
 </body>
-</html> 
+</html>
