@@ -5,26 +5,22 @@
 <h1>My Hackbright Coding Challenge</h1>
 
 <script>
-var linebreak = "<br />";
-var x = 1;
 
+var x = 1;
 function skipMultiples() 
 {
-    for (var x = 1; x <= 50; x++) 
+  for (var x = 1; x <= 50; x++) 
+  {
+    if (x % 7 === 0) 
     {
-        if (x % 7 === 0) 
-        {
-            document.write("Inspirational Quote");
-            document.write(linebreak);
-        } 
-        else 
-        {
-            document.write(x);
-            document.write(linebreak);
-  
-        }
+      document.write("Inspirational Quote");
+    } 
+    else 
+    {
+      document.write(x);
     }
-}
+  }
+} 
 skipMultiples();
 
 </script>
