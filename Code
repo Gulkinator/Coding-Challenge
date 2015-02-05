@@ -21,7 +21,7 @@ function skipMultiples()
         {
             document.write(x);
             document.write(linebreak);
-            x++;
+  
         }
     }
 }
