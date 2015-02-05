@@ -1,3 +1,4 @@
+var x = 1;
 function skipMultiples() 
 {
   for (var x = 1; x <= 50; x++) 
@@ -11,5 +12,5 @@ function skipMultiples()
       document.write(x);
     }
   }
-{  
+} 
 skipMultiples();
