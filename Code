@@ -5,21 +5,28 @@
 <h1>My Hackbright Coding Challenge</h1>
 
 <script>
+var linebreak = "<br />";
+var x = 1;
 
-var linebreak="<br />"
-for( var x=1; x<= 50; x++)
+function skipMultiples() 
 {
-    if(x % 7)
+    for (var x = 1; x <= 50; x++) 
     {
-        document.write(x); 
-        document.write(linebreak);
-    } 
-    else 
-    {
-        document.write("The hand that rocks the cradle is the hand that rules the world."); 
-        document.write(linebreak);
-    } 
-} 
+        if (x % 7 === 0) 
+        {
+            document.write("Inspirational Quote");
+            document.write(linebreak);
+        } 
+        else 
+        {
+            document.write(x);
+            document.write(linebreak);
+            x++;
+        }
+    }
+}
+skipMultiples();
+
 </script>
 
 </body>
