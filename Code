@@ -13,7 +13,7 @@ function skipMultiples()
   {
     if (x % 7 === 0) 
     {
-      document.write("Inspirational Quote");
+      document.write("...nobody gives you power. You just take it.~Roseanne Barr");
     document.write(linebreak);
     } 
     else 
@@ -26,9 +26,6 @@ function skipMultiples()
 skipMultiples();
 
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
