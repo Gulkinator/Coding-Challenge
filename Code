@@ -5,7 +5,7 @@
 <h1>My Hackbright Coding Challenge</h1>
 
 <script>
-
+var linebreak="<br />"
 var x = 1;
 function skipMultiples() 
 {
@@ -14,16 +14,21 @@ function skipMultiples()
     if (x % 7 === 0) 
     {
       document.write("Inspirational Quote");
+    document.write(linebreak);
     } 
     else 
     {
       document.write(x);
+    document.write(linebreak);
     }
   }
 } 
 skipMultiples();
 
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
