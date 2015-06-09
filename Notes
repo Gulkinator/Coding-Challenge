@@ -1,5 +1,0 @@
-The For loop is executed till a specified condition returns false. It has basically the same syntax then in other languages. It takes 3 arguments and looks as follows: 
-    for (initialization; condition; increment) 
-    {            
-       // statements
-    }
